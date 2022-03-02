@@ -14,4 +14,8 @@ export default {
     Topbar
   }
 }
+
 </script>
+<style >
+
+</style>
