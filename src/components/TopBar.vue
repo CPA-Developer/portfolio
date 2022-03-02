@@ -2,9 +2,9 @@
   <div class="container">
     <nav class="nav-links">
       <router-link class="link" to="/">Home</router-link> 
-      <router-link class="link" to="/">About</router-link> 
-      <router-link class="link" to="/">Interest</router-link> 
-      <router-link class="link" to="/">Contact</router-link> 
+      <router-link class="link" to="/about">About</router-link> 
+      <router-link class="link" to="/interest">Interest</router-link> 
+      <router-link class="link" to="/contact">Contact</router-link> 
       <router-link class="link" to="/">Coup</router-link> 
     </nav>
   </div>

@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-   <Home/>
-    
+   
+    <Topbar/>
+    <Home/>
   </div>
 </template>
 <script>
-import Home from './views/HomeView.vue'
+ import Home from './views/HomeView.vue'
+import Topbar from '@/components/TopBar.vue'
 export default {
   name: "app",
   components: {
     Home,
-   
+   Topbar   
   },
   data() {
     return {};
