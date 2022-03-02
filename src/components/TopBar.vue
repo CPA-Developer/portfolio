@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <div class="container-TopBar">
     <nav class="nav-links">
       <router-link class="link" to="/">Home</router-link> 
       <router-link class="link" to="/about">About</router-link> 
       <router-link class="link" to="/interest">Interest</router-link> 
       <router-link class="link" to="/contact">Contact</router-link> 
-      <router-link class="link" to="/">Coup</router-link> 
+      <router-link class="link" to="/profile">Profile</router-link> 
     </nav>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.container{
+.container-TopBar{
   background-color: rgb(23, 22, 54);
   
 }
